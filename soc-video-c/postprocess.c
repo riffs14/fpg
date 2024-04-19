@@ -694,7 +694,7 @@ int post_process_blazeface(object_t faces[],fix16_t* scores,fix16_t* points,int 
 
 int pprint_post_process(const char *name, const char *str, model_t *model, vbx_cnn_io_ptr_t *io_buffers)
 {
-	printf("this is pprint_post_process ")
+	
 	if (!strcmp(str, "BLAZEFACE")){
 		const int MAX_FACES=24;
 		object_t faces[MAX_FACES];
