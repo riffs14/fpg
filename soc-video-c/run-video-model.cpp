@@ -36,7 +36,7 @@ struct model_descr_t models[] = {
         {"GenderAge", "/home/root/samples_V1000_1.4.4/genderage.vnnx", 0, "GENDERAGE"},
         {"LPD", "/home/root/samples_V1000_1.4.4/lpd_eu_v42.vnnx", 0, "LPD"},
         {"LPR", "/home/root/samples_V1000_1.4.4/lpr_eu_v3.vnnx", 0, "LPR"},
-        {"Yolo V5 Nano", "/home/root/samples_V1000_1.4.4/ultralytics.yolov5n.relu.vnnx", 0, "YOLOV5"},
+       {"Yolo V5 Nano", "/home/root/samples_V1000_1.4.4/ultralytics.yolov5n.relu.vnnx", 0, "YOLOV5"},
         {"Tiny Yolo V4 COCO", "/home/root/samples_V1000_1.4.4/yolo-v4-tiny-tf.vnnx", 0, "YOLOV4"},
 };
 
