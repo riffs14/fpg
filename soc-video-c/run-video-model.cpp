@@ -21,7 +21,7 @@
 
 
 struct model_descr_t models[] = {
-        {"MobileNet V2", "/home/root/samples_V1000_1.4.4/custome_mobilenet_v2.vnnx", 0, "IMAGENET"},
+        {"MobileNet V2", "/home/root/samples_V1000_1.4.4/newcustommobilenet_v2.vnnx", 0, "IMAGENET"},
         {"Yolo V5 Nano", "/home/root/samples_V1000_1.4.4/ultralytics.yolov5n.relu.vnnx", 0, "YOLOV5"},
         {"SCRFD", "/home/root/samples_V1000_1.4.4/scrfd_500m_bnkps.vnnx", 0, "SCRFD"},
         {"ArcFace", "/home/root/samples_V1000_1.4.4/mobilefacenet-arcface.vnnx", 0, "ARCFACE"},
