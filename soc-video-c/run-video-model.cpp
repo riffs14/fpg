@@ -20,7 +20,8 @@
 #include "detectionDemo.h"
 
 
-struct model_descr_t models[] =  {"SCRFD", "/home/root/samples_V1000_1.4.4/scrfd_500m_bnkps.vnnx", 0, "SCRFD"},
+struct model_descr_t models[] = {
+	{"SCRFD", "/home/root/samples_V1000_1.4.4/scrfd_500m_bnkps.vnnx", 0, "SCRFD"},
         {"ArcFace", "/home/root/samples_V1000_1.4.4/mobilefacenet-arcface.vnnx", 0, "ARCFACE"},
         {"GenderAge", "/home/root/samples_V1000_1.4.4/genderage.vnnx", 0, "GENDERAGE"},
         {"LPD", "/home/root/samples_V1000_1.4.4/lpd_eu_v42.vnnx", 0, "LPD"},
